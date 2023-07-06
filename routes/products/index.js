@@ -3,15 +3,11 @@ const products = require('express').Router();
 const productList = [
     {
         name: "zahnversicherung",
-        value: {
-            price: 10
-        }
+        value: 10
     },
     {
         name: "reiseversicherung",
-        value: {
-            price: 20
-        }
+        value: 20
     }
 ]
 
