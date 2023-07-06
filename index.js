@@ -1,7 +1,12 @@
 // Add Express
 const express = require("express");
+const cors = require("cors");
 // Initialize Express
 const app = express();
+
+//Enable Cors
+app.use(cors());
+
 const products = require('./routes/products')
 const forms = require('./routes/forms')
 // Create GET request
