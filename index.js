@@ -1,25 +1,14 @@
-const express = require('express');
-const routes = require('./app/routes');
-
+// Add Express
+const express = require("express");
+// Initialize Express
 const app = express();
-
-const port = process.env.PORT || 8080; // set our port
-
-app.use('/', routes);
-
-app.use((err, req, res, next) => {
-  res.status(err.status || 400).json({
-    success: false,
-    message: err.message || 'An error occured.',
-    errors: err.error || [],
-  });
+// Create GET request
+app.get("/", (req, res) => {
+  res.send("Express on Vercel");
+});
+// Initialize server
+app.listen(5000, () => {
+  console.log("Running on port 5000.");
 });
 
-app.use((req, res) => {
-  res.status(404).json({ success: false, message: 'Resource not found.' });
-});
-
-// Start the server
-app.listen(port);
-
-console.log(`Server started on port ${port}`);
+module.exports = app
