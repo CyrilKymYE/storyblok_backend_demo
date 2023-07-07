@@ -96,4 +96,9 @@ forms.get("/:id", (req, res) => {
     }
 })
 
+forms.post("/", (req, res) => {
+    req.body; // { answer: 42 }
+    res.json(req.body);
+})
+
 module.exports = forms;

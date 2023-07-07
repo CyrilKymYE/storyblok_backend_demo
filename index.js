@@ -4,6 +4,7 @@ const cors = require("cors");
 // Initialize Express
 const app = express();
 
+app.use(require('body-parser').urlencoded({ extended: false }));
 //Enable Cors
 app.use(cors());
 
