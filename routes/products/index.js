@@ -38,6 +38,10 @@ products.get("/", (req, res) => {
     res.status(200).json(versicherungen);
 })
 
+products.get("/keyvalue",(req, res) => {
+    res.status(200).json(keyValue);
+})
+
 products.get("/:id", (req, res) => {
     const id = Number(req.params.id);
     let product = null;
@@ -57,8 +61,6 @@ products.get("/:id", (req, res) => {
     }
 })
 
-products.get("/keyvalue",(req, res) => {
-    res.status(200).json(keyValue);
-})
+
 
 module.exports = products;
