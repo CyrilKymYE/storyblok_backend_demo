@@ -2,6 +2,7 @@ const forms = require('express').Router();
 
 const formsList = [
     {
+        _uid: 1,
         name: "form 1",
         value: {
             fields: [
