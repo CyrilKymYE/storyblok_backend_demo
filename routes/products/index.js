@@ -8,7 +8,7 @@ const versicherungen= [
         title: "Schliessen Sie die grössten Versicherungslücken",
         description: "mit einer günstigen Zusatzversicherung ohne viel Schnickschnack, dafür mit Kostenbeiträgen an Ihr Sportabo, Auslandschutz und Kostenübernahme bei Notfalltransporten. Und das bereits ab CHF 13.50 pro Monat*.",
         price: 13.50,
-        hearder: {
+        hero: {
             url: "https://a.storyblok.com/f/233982/1300x731/8ad6060815/2021_-27_21-023_altb_04_0093_srgb_16-9.jpg",
             texline1: "atupri Basic"
         }
@@ -19,7 +19,7 @@ const versicherungen= [
         title: "Mivita passt zu mir, weil ...",
         description: "Mit einer Zusatzversicherung schliessen Sie Versicherungslücken, die nicht durch die Grundversicherung gedeckt sind. Damit Sie immer sinnvoll versichert sind und Kosten sparen, erhalten Sie mit der cleveren Zusatzversicherung Mivita neben den allgemeinen Leistungen für jede Lebensphase auch spezifische Leistungen genau dann, wenn Sie diese im Leben brauchen – ganz ohne administrativen Aufwand und Vertragsanpassungen.",
         price: 35.50,
-        hearder: {
+        hero: {
             url: "https://a.storyblok.com/f/233982/1300x731/3c7ad93211/atupri_wettbewerb_teaserbild_1600x900px.jpg",
             texline1: "Auf Sie abgestimmt"
         }
