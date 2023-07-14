@@ -4,7 +4,7 @@ const products = require('express').Router();
 const versicherungen= [
     {
         id: 1,
-        name: "basic",
+        name: "Atupri - Basic",
         title: "Schliessen Sie die grössten Versicherungslücken",
         description: "mit einer günstigen Zusatzversicherung ohne viel Schnickschnack, dafür mit Kostenbeiträgen an Ihr Sportabo, Auslandschutz und Kostenübernahme bei Notfalltransporten. Und das bereits ab CHF 13.50 pro Monat*.",
         price: 13.50,
@@ -15,7 +15,7 @@ const versicherungen= [
     },
     {
         id: 2,
-        name: "mitiva",
+        name: "Atupri - Mivita",
         title: "Mivita passt zu mir, weil ...",
         description: "Mit einer Zusatzversicherung schliessen Sie Versicherungslücken, die nicht durch die Grundversicherung gedeckt sind. Damit Sie immer sinnvoll versichert sind und Kosten sparen, erhalten Sie mit der cleveren Zusatzversicherung Mivita neben den allgemeinen Leistungen für jede Lebensphase auch spezifische Leistungen genau dann, wenn Sie diese im Leben brauchen – ganz ohne administrativen Aufwand und Vertragsanpassungen.",
         price: 35.50,
