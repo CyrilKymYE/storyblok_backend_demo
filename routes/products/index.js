@@ -24,7 +24,7 @@ const versicherungen= [
         description: "Mit einer Zusatzversicherung schliessen Sie Versicherungslücken, die nicht durch die Grundversicherung gedeckt sind. Damit Sie immer sinnvoll versichert sind und Kosten sparen, erhalten Sie mit der cleveren Zusatzversicherung Mivita neben den allgemeinen Leistungen für jede Lebensphase auch spezifische Leistungen genau dann, wenn Sie diese im Leben brauchen – ganz ohne administrativen Aufwand und Vertragsanpassungen.",
         price: 35.50,
         hero: {
-            url: "https://a.storyblok.com/f/233982/1248x420/b5b7b04c49/455-1248x420-grayscale.jpg",
+            url: "https://a.storyblok.com/f/233982/2993x1983/74b4d57314/timothy-newman-glqawc9omyi-unsplash.jpg",
             texline1: "Auf Sie abgestimmt"
         },
         highlights: [
